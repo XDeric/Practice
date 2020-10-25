@@ -20,6 +20,10 @@ void Tester(int x, int y){
     }
 }
 
+void Ternary(int a, int b){
+    (a < b) ? cout <<"\nnum2 is bigger": cout <<"\nnum1 is bigger";
+}
+
 int main()
 {
     int num1 = 1;
@@ -28,6 +32,7 @@ int main()
     cout <<"Test"<< myNum;
     //cout << "\nsum:" <<(num1+num4);
     Tester(num3, num4);
+    Ternary(num1, num2);
     
 }
 
