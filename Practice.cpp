@@ -24,6 +24,23 @@ void Ternary(int a, int b){
     (a < b) ? cout <<"\nnum2 is bigger": cout <<"\nnum1 is bigger";
 }
 
+void whileLoop(int a){
+   do{
+      cout<<"\nValue of num: "<<a;a++;
+   }while(a <=6);
+}
+
+void Looping(int a){
+    for (int i = 0; i < a; i++)
+    {
+        if (i == 5){
+            continue;
+        }
+        cout<< "\nNumber is at "<< i;
+    }
+    
+}
+
 int main()
 {
     int num1 = 1;
@@ -31,11 +48,9 @@ int main()
     int num3 = 3, num4 = 4;
     cout <<"Test"<< myNum;
     //cout << "\nsum:" <<(num1+num4);
-    Tester(num3, num4);
-    Ternary(num1, num2);
+    //Tester(num3, num4);
+    //Ternary(num1, num2);
+    //whileLoop(num1);
+    Looping(10);
     
 }
-
-    
-
-
