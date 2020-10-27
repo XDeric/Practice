@@ -4,6 +4,25 @@ using namespace std;
 
 //Global variables
 int myNum = 20;
+void Tester(int,int);
+void Ternary(int, int);
+void whileLoop(int);
+void Looping(int);
+
+
+int main()
+{
+    int num1 = 1;
+    int num2 = 2;
+    int num3 = 3, num4 = 4;
+    cout <<"Test"<< myNum;
+    //cout << "\nsum:" <<(num1+num4);
+    //Tester(num3, num4);
+    //Ternary(num1, num2);
+    //whileLoop(num1);
+    Looping(10);
+    
+}
 
 void Tester(int x, int y){
     for (int i = 0; i < 5; i++)
@@ -38,19 +57,5 @@ void Looping(int a){
         }
         cout<< "\nNumber is at "<< i;
     }
-    
-}
-
-int main()
-{
-    int num1 = 1;
-    int num2 = 2;
-    int num3 = 3, num4 = 4;
-    cout <<"Test"<< myNum;
-    //cout << "\nsum:" <<(num1+num4);
-    //Tester(num3, num4);
-    //Ternary(num1, num2);
-    //whileLoop(num1);
-    Looping(10);
     
 }
