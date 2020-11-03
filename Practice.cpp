@@ -9,18 +9,28 @@ void Ternary(int, int);
 void whileLoop(int);
 void Looping(int);
 
+int *p, pointing;
 
 int main()
 {
     int num1 = 1;
     int num2 = 2;
     int num3 = 3, num4 = 4;
-    cout <<"Test"<< myNum;
+    // cout <<"Test"<< myNum;
     //cout << "\nsum:" <<(num1+num4);
     //Tester(num3, num4);
     //Ternary(num1, num2);
     //whileLoop(num1);
-    Looping(10);
+    // Looping(10);
+
+    int *point, pointing = 1;
+    //cout<< &pointing; //prints out address of pointing
+    point = &pointing;
+
+    cout<<"Address of pointing: "<<&pointing<<endl;
+    cout<<"Address of pointint: "<<point<<endl;
+    cout<<"Address of point: "<<&point<<endl;
+    cout<<"Value of pointing: "<<*p;
     
 }
 
